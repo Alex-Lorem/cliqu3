@@ -1,0 +1,13 @@
+config:
+  target: "https://cliqu3.b4a.app/"
+  phases:
+    - duration: 10
+      arrivalRate: 10
+scenarios:
+  - flow:
+      - get:
+          url: "/image-for-inventory"
+          headers:
+            x-access-token: ""
+            x-requested-with: 2
+
